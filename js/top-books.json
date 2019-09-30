@@ -1,0 +1,62 @@
+[
+	{
+		"id":"1",
+		"title":"The Hunger Games (The Hunger Games, #1)",
+		"autor":"Suzanne Collins",
+		"imagen": "https://images.gr-assets.com/books/1447303603m/2767052.jpg"
+	},
+	{
+		"id":"2",
+		"title":"Harry Potter and the Sorcerer's Stone (Harry Potter, #1)",
+		"autor":"J.K. Rowling, Mary GrandPré",
+		"imagen": "	https://images.gr-assets.com/books/1474154022m/3.jpg"
+	},
+	{
+		"id":"3",
+		"title":"Twilight (Twilight, #1)",
+		"autor":"Stephenie Meyer",
+		"imagen": "https://images.gr-assets.com/books/1361039443m/41865.jpg"
+	},
+	{
+		"id":"4",
+		"title":"To Kill a Mockingbird",
+		"autor":"Harper Lee",
+		"imagen": "https://images.gr-assets.com/books/1361975680m/2657.jpg"
+	},
+	{
+		"id":"5",
+		"title":"The Great Gatsby",
+		"autor":"F. Scott Fitzgerald",
+		"imagen": "https://images.gr-assets.com/books/1490528560m/4671.jpg"
+	},
+	{
+		"id":"6",
+		"title":"The Fault in Our Stars",
+		"autor":"John Green",
+		"imagen": "https://images.gr-assets.com/books/1360206420m/11870085.jpg"
+	},
+	{
+		"id":"7",
+		"title":"The Hobbit",
+		"autor":"J.R.R. Tolkien",
+		"imagen": "https://images.gr-assets.com/books/1372847500m/5907.jpg"
+	},
+	{
+		"id":"8",
+		"title":"The Catcher in the Rye",
+		"autor":"J.D. Salinger",
+		"imagen": "https://images.gr-assets.com/books/1398034300m/5107.jpg"
+	},
+	{
+		"id":"9",
+		"title":"Pride and Prejudice",
+		"autor":"Jane Austen",
+		"imagen": "https://images.gr-assets.com/books/1320399351m/1885.jpg"
+	},
+	{
+		"id":"10",
+		"title":"Angels & Demons (Robert Langdon, #1)",
+		"autor":"Dan Brown",
+		"imagen": "https://images.gr-assets.com/books/1303390735m/960.jpg"
+	}
+]

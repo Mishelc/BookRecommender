@@ -1,0 +1,131 @@
+*{
+	margin:0px;
+	padding:0px;
+}
+
+body{
+	background: #fffffa;
+	color: #F2F2F2;
+	font-family: sans-serif;
+}
+header{
+	width: 100%;
+	overflow: hidden;
+	background: #23AD7B;
+	margin-bottom: 20px;
+}
+.wrapper{
+	width: 95%;
+	margin: auto;
+	overflow: hidden;
+}
+.contenido-izquierdo{
+	float: left;
+	display: flex;
+}
+header img{	
+	width: 52px;
+	height:52px;
+	margin-top: 10px;
+}
+
+.text-logo{
+	font-size: 20px;
+	margin-top: 25px;
+	margin-left: 15px;
+	font-family: sans-serif;
+	font-weight: bold;
+	cursor: pointer;
+}
+.buscador{
+	margin-left: 15px;
+	margin-top: 23px;
+}
+#round{
+	width: 300px;
+	height: 16px;
+	padding: 5px 7px 5px 7px;
+}
+input[type=text] {
+	color: #949494;
+    margin: 0;
+    background-color: #ededed;
+    border: 1px solid #ededed;
+    padding: 6px 0px;
+    border-radius: 3px;
+}
+header nav{
+	float: right;
+	line-height: 50px;
+	font-family: Helvetica, Arial;
+}
+header nav a{
+	display: inline-block;
+	color: #fff;
+	text-decoration: none;
+	padding: 10px 20px;
+	font-size: 20px;
+	font-weight: bold;
+}
+header nav a:hover{
+	color: #FFCC63;
+}
+
+
+#copy{
+	margin-left: 25px;
+	margin-top: 14px;
+}
+
+footer{
+	width: 100%;
+	background: #23AD7B;
+	overflow: hidden;
+	margin: 0px auto;
+	height: 50px;
+	font-size: 15px;
+	font-family: sans-serif;
+}
+.contenido{
+	margin-left: auto;
+	margin-right: auto;
+	font-family: sans-serif;	
+	color: white;
+	padding: 10px 10px 10px 10px;
+	width: 1180px;
+	
+}
+.libros-sugeridos{
+	padding: 10px 10px 10px 10px;
+	width: calc(100% - 20px);
+	background: #444;
+}
+.titulo-sugerencias{
+	font-size: 20px;
+}
+
+.top-content{
+	width: 100%;
+	padding-top: 10px;
+	display: flex;
+}
+.sugerencia{
+	width: 20%;
+	padding: 5px 5px 5px 5px;
+	cursor: pointer;
+}
+.sugerencia:hover{
+	background: #555;
+}
+.sugerencia img{
+	width: 100%;
+	max-height: 250px;
+}
+.libro{
+	padding: 0px 5px 0px 5px;
+	font-weight: bold;
+}
+.autor{
+	padding: 0px 5px 0px 5px;
+	font-size: 15px;
+}

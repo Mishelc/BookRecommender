@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>Log in|Book Recommender</title>
+	<link rel="icon" href="img/icon.png" type="image/png" sizes="32x32">
+	<link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+	<link rel="stylesheet" type="text/css" href="css/login.css">
+
+
+  	<!-- Mis scripts-->
+  	<script type="text/javascript" src="js/main.js"></script>
+</head>
+<body>
+	<header>
+		<div class="wrapper">
+			<div class="contenido-izquierdo">
+				<img src="img/icon.png" alt="icono">
+				<div class="text-logo">Book Recommender</div>
+				<div class="buscador">
+					<input type="text" placeholder="Search..." id="round">
+				</div>
+			</div>
+			
+			<nav>
+				<a href="index.html">Books</a>
+				<a href="login.html">Log in</a>
+			</nav>
+		</div>
+	</header>
+
+	<section class="contenido">
+		<div id="container-login">
+	        <div id="title">
+	            <i class="material-icons lock">lock</i> Login
+	        </div>
+
+	        <form>
+	            <div class="input">
+	                <div class="input-addon">
+	                    <i class="material-icons">face</i>
+	                </div>
+	                <input id="username" placeholder="Username" type="text" required class="validate" autocomplete="off">
+	            </div>
+
+	            <div class="clearfix"></div>
+
+	            <div class="input">
+	                <div class="input-addon">
+	                    <i class="material-icons">vpn_key</i>
+	                </div>
+	                <input id="password" placeholder="Password" type="password" required class="validate" autocomplete="off">
+	            </div>
+
+	            <div class="remember-me">
+	                <input type="checkbox">
+	                <span style="color: #757575">Remember Me</span>
+	            </div>
+
+	            <input type="submit" value="Log In" />
+	        </form>
+
+	        <div class="forgot-password">
+	            <a href="#">Forgot your password?</a>
+	        </div>
+	        
+
+	        <div class="register">
+	            <span style="color: #657575">Don't have an account yet?</span>
+	            <a href="register.html"><button id="register-link">Register here</button></a>
+	        </div>
+    	</div>
+		
+	</section>
+
+	<footer>
+		<div id="copy">
+		© 2019 All rights reserved
+		</div>
+	</footer>
+
+</body>
+</html>
